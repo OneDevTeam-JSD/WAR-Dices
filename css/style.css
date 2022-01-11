@@ -1,0 +1,77 @@
+html {
+    background-color: black;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header Inicio */
+.header {
+    max-width: 100%;
+}
+/* Header Final */
+
+/* Main Inicio */
+.main {
+    max-width: 100%;
+    background-color: rgb(182, 182, 182);
+}
+.main .dice-box {
+    max-width: 100%;
+    padding: 10px;
+}
+.main .dice-box h2 {
+    text-align: center;
+}
+.main .dice-box p {
+    text-align: center;
+}
+.main .dice-box input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main #attackingSide {
+    background-color: rgb(255, 93, 93);
+}
+.main #defendingSide {
+    background-color: rgb(255, 255, 93);
+}
+.main #mid {
+
+}
+.main #mid #commandField {
+    
+}
+.main #mid #commandField .btn {
+    margin: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main #mid #result-box {
+    padding: 5px;
+}
+.main #mid #result-box h3 {
+    text-align: center;
+}
+.main #mid #result-box p {
+    text-align: center;
+}
+.main #LogField {
+    padding-top: 10px;
+    background-color: aquamarine;
+}
+.main #LogField h3 {
+    text-align: center;
+}
+.main #LogField #logs {
+    text-align: center;
+}
+/* Main Final */
+
+/* Footer Inicio */
+.footer {
+    max-width: 100%;
+}
+/* Footer Final */

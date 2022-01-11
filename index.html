@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<!-- Joao Pedro Barbosa Leite -->
+
+<head>
+    <title>WAR - Dices</title>
+    <!-- METAs -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- EXTERNAL LINKS: Bootstrap + FontAwesome -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/5fe1660938.js" crossorigin="anonymous"></script>
+    <!-- MY CSS LINK -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="container header">
+        <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="img/dado.jpg" alt="" width="60" height="48" class="d-inline-block align-text-top">
+                WAR - Dices
+              </a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container main">
+        <div class="row">
+            <div class="col-sm-12 col-md-5 col-lg-5 dice-box" id="attackingSide">
+                <h2>ATAQUE</h2>
+                <p>Número de tropas atacando</p>
+                <input type="number" id="redDices" name="redDices">
+            </div>
+
+            <div class="col-sm-12 col-md-2 col-lg-2 row" id="mid">
+                <div class="col-sm-6 col-md-12 col-lg-12" id="commandField">
+                    <button type="button" class="btn btn-primary" id="btn-onlyOne">Único lance</button>
+                    <button type="button" class="btn btn-primary" id="btn-allIn">All-in</button>
+                    <button type="button" class="btn btn-primary" id="btn-clear">Clear</button>
+                </div>
+                <div class="col-sm-6 col-md-12 col-lg-12" id="result-box">
+                    <h3>Resultado</h3>
+                    <p id="p-resultado">- - -</p>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-5 col-lg-5 dice-box" id="defendingSide">
+                <h2>DEFESA</h2>
+                <p>Número de tropas defendendo</p>
+                <input type="number" id="yellowDices" name="yellowDices">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12" id="LogField">
+                <h3>
+                   LOG: 
+                </h3>
+                <p id="logs">
+
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="container footer">
+
+    </footer>
+
+
+    <!-- JS do Bootstrap: -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+    <!-- JS próprio -->
+    <script src="js/js.js"></script>
+</body>
+
+</html>
